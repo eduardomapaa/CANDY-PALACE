@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #AAC0AA;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    font-family: Inter;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.cabecario{
+    background-color: #263F30;
+    height: 100vh;
+    width: 18rem;
+    color: #AAC0AA;
+    line-height: 15vh;
+    font-size: larger;
+    justify-content: left;
+    padding: 5%;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul{
+    list-style: none;
+}
+
+.formulario{
+    color: #263F30;
+    padding: 20%;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #AAC0AA;
+}

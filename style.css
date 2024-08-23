@@ -1,0 +1,50 @@
+body{
+    margin: 0;     
+    font-family: Inter;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #263F30;
+} 
+
+.principal{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    width: 100%;
+    color: chocolate;
+}
+.titulo{
+    text-align: center;
+    height: 50px;
+    width: 310px;
+}
+.menu{
+    background-color: #263F30;
+    height: 100vh;
+    width: 30rem;
+    color: #AAC0AA;
+    line-height: 15vh;
+    font-size: larger;
+    text-align: center;
+    padding: 5%;
+}
+ul{
+   list-style: none;
+   text-align: left;   
+}
+.titulo{
+    color: rgb(250, 141, 64);
+    font-size: larger;
+}  
+.imagem{
+    background-image: url(imagens/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 100vh;
+    
+}
+a{
+    text-decoration: none;
+    color: #AAC0AA;
+}
